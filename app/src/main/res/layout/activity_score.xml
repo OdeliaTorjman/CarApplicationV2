@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue200"
+    tools:context=".Activities.ScoreActivity">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/score_LBL_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:text="Score\n000"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/score_TextEdit_scoreNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:maxLength="20"
+        android:ems="40"
+        android:textColor="@color/black"
+        android:layout_marginTop="550dp"
+        android:layout_marginHorizontal="100dp"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="Name"
+        />
+    <Button
+        android:id="@+id/score_BTN_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription=" "
+        android:text="Submit" />
+
+
+
+</RelativeLayout>
