@@ -9,6 +9,10 @@ He also chooses whether he prefers normal or accelerated mode.
 
 ![image](https://github.com/OdeliaTorjman/CarApplicationV2/assets/156775579/37d7a88a-31ae-4480-9994-0573f0ac218f)
 
+Sensor mode: 
+![image](https://github.com/OdeliaTorjman/CarApplicationV2/assets/156775579/27947d32-58b9-463a-98d5-0df8b9eec6c5)
+
+
 So he starts with 3 lives: one he loses by meeting the old man, and one he gains by meeting a heart.
 When he's finished, the user is redirected to a window where he can enter his name to keep track of his score.
 
